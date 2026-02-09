@@ -1,8 +1,5 @@
 
- 
-</head>
-<body>
-    <header>
+   <header>
         <h1>Cincinnati Reds</h1>
         <nav>
             <ul>
