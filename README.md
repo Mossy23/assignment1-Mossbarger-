@@ -29,7 +29,7 @@
                 their current roster, recent performance, and key players to watch.
             </p>
 
-  <img src="images/reds.jpg" alt="Cincinnati Reds baseball team on the field" width="400">
+  <img src="imagesreds.jpg" alt="Cincinnati Reds baseball team on the field" width="400">
         </section>
 
   <section>
