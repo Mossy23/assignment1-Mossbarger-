@@ -7,7 +7,7 @@ body {
 
 header {
    header {
-    position: middle;
+    position: fixed;
     top: 0;
     width: 100%;
     background-color: #c6011f;  /* Reds red */
