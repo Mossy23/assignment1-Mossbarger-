@@ -6,14 +6,16 @@ body {
 }
 
 header {
-    position: fixed;
+   header {
+    position: middle;
     top: 0;
     width: 100%;
-    background: #30;
-    color: white
+    background-color: #c6011f;  /* Reds red */
+    color: white;
+    padding: 15px 0;
     text-align: center;
-    padding: 15px;
-    box-shadow: 0 4px 6px rgba(0,0,0,0.2);
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2);
+}
 }
 
 nav a {
