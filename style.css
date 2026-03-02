@@ -9,8 +9,8 @@ header {
     position: fixed;
     top: 0;
     width: 100%;
-    background: red;
-    color: white;
+    background: #30;
+    color: white
     text-align: center;
     padding: 15px;
     box-shadow: 0 4px 6px rgba(0,0,0,0.2);
