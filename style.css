@@ -50,7 +50,7 @@ main {
     flex-direction: column;
     justify-content: flex-start; /* start from top instead of center */
     align-items: center;
-    padding-top: 220px; /* increased space to lower it */
+    padding-top: 260px; /* increased space to lower it */
     text-align: center;
 }
 
