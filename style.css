@@ -1,32 +1,32 @@
-/* Page Background */
+
 body {
     margin: 0;
     font-family: Arial, sans-serif;
     line-height: 1.6;
-    background-color: #f8f8f8; /* light gray background */
+    background-color: #f8f8f8; 
 }
 
-/* Sticky Header */
+
 header {
     position: fixed;
     top: 0;
     width: 100%;
-    background-color: #c6011f;  /* Reds red */
+    background-color: #c6011f;  
     color: white;
     padding: 20px 0;
-    text-align: center; /* centers Reds title */
+    text-align: center; 
     box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2);
 }
 
-/* Center navigation */
+
 nav {
     display: flex;
-    justify-content: center;  /* centers Home & Contact */
-    gap: 40px; /* space between links */
+    justify-content: center;  
+    gap: 40px;
     margin-top: 10px;
 }
 
-/* Navigation Links */
+
 nav a {
     color: white;
     text-decoration: none;
@@ -37,31 +37,31 @@ nav a {
     transition: all 0.3s ease;
 }
 
-/* Hover Effect */
+
 nav a:hover {
     background-color: white;
     color: #c6011f;
 }
 
-/* Center Main Content */
+
 main {
 main {
     display: flex;
     flex-direction: column;
-    justify-content: flex-start; /* start from top instead of center */
+    justify-content: flex-start; 
     align-items: center;
-    padding-top: 260px; /* increased space to lower it */
+    padding-top: 260px; 
     text-align: center;
 }
 
-/* Images */
+
 img {
     max-width: 100%;
     height: auto;
     margin: 20px 0;
 }
 
-/* Footer */
+
 footer {
     background-color: #c6011f;
     color: white;
@@ -70,24 +70,24 @@ footer {
     margin-top: 40px;
 }
 
-/* Centered Content */
+
 main {
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    padding-top: 140px; /* gives space for fixed header */
+    padding-top: 140px; 
     text-align: center;
 }
 
-/* Images */
+
 img {
     max-width: 100%;
     height: auto;
     margin: 20px 0;
 }
 
-/* Footer */
+
 footer {
     background: #c6011f;
     color: white;
