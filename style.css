@@ -2,11 +2,11 @@ body {
     margin: 0;
     font-family: Arial, sans-serif;
     line-height: 1.6;
-    background-color: #f4f4f;
+    background-color: #f4f4f4; /* fixed */
 }
 
+/* Sticky Header */
 header {
-   header {
     position: fixed;
     top: 0;
     width: 100%;
@@ -16,29 +16,39 @@ header {
     text-align: center;
     box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2);
 }
-}
 
+/* Navigation */
 nav a {
     color: #fff;
     text-decoration: none;
     margin: 0 15px;
+    font-weight: bold;
 }
 
 nav a:hover {
-    color: #00bcd4;
+    color: #ffd700;
 }
 
+/* Centered Content */
 main {
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    padding-top: 120px;
+    padding-top: 140px; /* gives space for fixed header */
     text-align: center;
 }
 
+/* Images */
+img {
+    max-width: 100%;
+    height: auto;
+    margin: 20px 0;
+}
+
+/* Footer */
 footer {
-    background: #333;
+    background: #c6011f;
     color: white;
     text-align: center;
     padding: 15px;
