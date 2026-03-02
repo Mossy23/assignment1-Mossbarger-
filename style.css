@@ -45,11 +45,12 @@ nav a:hover {
 
 /* Center Main Content */
 main {
+main {
     display: flex;
     flex-direction: column;
-    justify-content: center;
+    justify-content: flex-start; /* start from top instead of center */
     align-items: center;
-    padding-top: 160px; /* space for fixed header */
+    padding-top: 200px; /* increased space to lower it */
     text-align: center;
 }
 
