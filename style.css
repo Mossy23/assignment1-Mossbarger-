@@ -1,8 +1,9 @@
+/* Page Background */
 body {
     margin: 0;
     font-family: Arial, sans-serif;
     line-height: 1.6;
-    background-color: #f4f4f4; /* fixed */
+    background-color: #f8f8f8; /* light gray background */
 }
 
 /* Sticky Header */
@@ -12,21 +13,60 @@ header {
     width: 100%;
     background-color: #c6011f;  /* Reds red */
     color: white;
-    padding: 15px 0;
-    text-align: center;
+    padding: 20px 0;
+    text-align: center; /* centers Reds title */
     box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2);
 }
 
-/* Navigation */
-nav a {
-    color: #fff;
-    text-decoration: none;
-    margin: 0 15px;
-    font-weight: bold;
+/* Center navigation */
+nav {
+    display: flex;
+    justify-content: center;  /* centers Home & Contact */
+    gap: 40px; /* space between links */
+    margin-top: 10px;
 }
 
+/* Navigation Links */
+nav a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 18px;
+    padding: 8px 15px;
+    border-radius: 6px;
+    transition: all 0.3s ease;
+}
+
+/* Hover Effect */
 nav a:hover {
-    color: #ffd700;
+    background-color: white;
+    color: #c6011f;
+}
+
+/* Center Main Content */
+main {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-top: 160px; /* space for fixed header */
+    text-align: center;
+}
+
+/* Images */
+img {
+    max-width: 100%;
+    height: auto;
+    margin: 20px 0;
+}
+
+/* Footer */
+footer {
+    background-color: #c6011f;
+    color: white;
+    text-align: center;
+    padding: 15px;
+    margin-top: 40px;
 }
 
 /* Centered Content */
