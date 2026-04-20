@@ -1,5 +1,4 @@
-
- <!DOCTYPE html>
+<!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
@@ -10,22 +9,25 @@
 
 <header>
     <h1>Cincinnati Reds</h1>
+
     <nav>
         <a href="index.html">Home</a>
         <a href="contact.html">Contact</a>
     </nav>
+
+    <!-- Dark Mode Button -->
+    <button id="theme-btn">Toggle Dark Mode</button>
 </header>
 
 <main>
     <section>
         <h2>Welcome to the Cincinnati Reds</h2>
 
-        <img src="imagesreds.jpg"
-
+        <img src="imagesreds.jpg" alt="Cincinnati Reds">
 
         <p>
             Visit the official Cincinnati Reds website:
-            <a href="https://www.mlb.com/reds" target="_blank" rel="noopener noreferrer">
+            <a href="https://www.mlb.com/reds" target="_blank">
                 Cincinnati Reds Official Site
             </a>
         </p>
@@ -35,6 +37,14 @@
 <footer>
     <p>© 2026 Cincinnati Reds Fan Site</p>
 </footer>
+ 
+<script>
+    const button = document.getElementById("theme-btn");
+
+    button.addEventListener("click", function() {
+        document.body.classList.toggle("dark-mode");
+    });
+</script>
 
 </body>
 </html>
