@@ -13,6 +13,7 @@ document.addEventListener("DOMContentLoaded", function () {
     questions.forEach(function (q) {
         q.addEventListener("click", function () {
             this.parentElement.classList.toggle("active");
+     <script src="script.js" defer></script>
         });
     });
 
