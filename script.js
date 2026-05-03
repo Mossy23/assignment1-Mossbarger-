@@ -1,20 +1,22 @@
-document.addEventListener("DOMContentLoaded", function () {
 
-    // THEME TOGGLE
-    const button = document.getElementById("theme-btn");
+const themeBtn = document.getElementById("theme-btn");
 
-    button.addEventListener("click", function () {
-        document.body.classList.toggle("dark-mode");
+themeBtn.addEventListener("click", () => {
+    document.body.classList.toggle("dark-mode");
+});
+
+
+const faqButtons = document.querySelectorAll(".faq-question");
+
+faqButtons.forEach(button => {
+    button.addEventListener("click", () => {
+        const answer = button.nextElementSibling;
+
+        // toggle visibility
+        if (answer.style.display === "block") {
+            answer.style.display = "none";
+        } else {
+            answer.style.display = "block";
+        }
     });
-
-    // FAQ ACCORDION
-    const questions = document.querySelectorAll(".faq-question");
-
-    questions.forEach(function (q) {
-        q.addEventListener("click", function () {
-            this.parentElement.classList.toggle("active");
-     <script src="script.js" defer></script>
-        });
-    });
-
 });
